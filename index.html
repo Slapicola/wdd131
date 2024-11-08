@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Sophia Lapicola</title>
+    <meta name="author" content="Sophia Lapicola"/>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Sophia E Lapicola, This page is a Home Page about me"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - S Lapicola</h1>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Sophia Lapicola</h1>
+        <nav>
+            <a href="www.linkedin.com/in/sophia-lapicola-a4558829b" title="LinkedIn">LinkedIn</a>
+            <a href="https://byui.instructure.com/" title="I-Learn">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/24?lang=eng" title="Scripture">Scripture</a>
+            <a href="#" title="Final Project">Final Project</a>
+        </nav>
+
+    </header>
+    <main>
+        <section class="card1">
+            <h2>About Me</h2>
+            <img class="Me" src="images/Me2.JPG" alt="A picture of me" width="150" height="200" />
+            <p>My name is Sophia and I was born in Provo, Utah but I now live in Florida with my family. I graduated high school last year and came to BYU-I to work on a degree in Software Development. In my free time I like to draw, watch TV/YouTube or play video games. </p>
+            
+            <h3>Wellington, Florida</h3>
+            <img  class="flag" src="images/florida-flag.webp" alt="A picture of the Florida state flag" width="175" height="117"/>
+            <p>Wellington, Florida is known as the Winter Equestrian Capital of the world. Lots of Equestrian sports happen here including Polo. Florida itself is a great tourist state, people come here for Disney World, Busch Gardens, Universal and more.</p>
+        </section>
+        <section class="card2">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/" title="W3 Schools">W3 Schools</a></li>
+                <li><a href="codepen.io" title="CodePen">CODEPEN</a></li>
+                <li><a href="geeksforgeeks.org" title="geeksforgeeks">GeeksforGeeks</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>©️ <span id="currentyear"></span> 🐾 Sophia Lapicola 🐾 Florida</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

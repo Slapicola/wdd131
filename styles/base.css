@@ -1,0 +1,90 @@
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-family: Itim;
+    padding: 1em;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 850px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    font-weight: 400;
+    font-size: 1.35em;
+}
+nav a {
+    display: block;
+    color: darkblue;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a:hover{
+    background-color: ivory;
+}
+
+h2 {
+    background-color: darkblue;
+    font-family: "Pixelify Sans", sans-serif;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 20px;
+    grid-gap: 2em;
+    max-width: 850px;
+    margin: 0 auto;
+}
+main .card1 {
+    border: 2px solid lightblue;
+    grid-column: 1 / 3;
+}
+
+.Me{
+    float: right;
+    padding: 10px;
+}
+
+.flag{
+    float: left;
+    padding: 15px;
+}
+
+.card2 {
+    border: 2px solid lightblue;
+    grid-column: 3 / 5;
+}
+.card2 ul {
+    display: block;
+    font-size: 1.25em;
+    line-height: 50px;
+}
+p {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: darkblue;
+    color: white;
+    font-family: Itim;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+}
