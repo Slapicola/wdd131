@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="author" content="Sophia Lapicola">
+    <meta name="description" content="WDD 131, Sophia Lapicola, A page about a country I want to visit">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-larger.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Greece</h1>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 900px)" srcset="images/parthenon-hero.webp">
+                <source media="(min-width: 500px)" srcset="images/parthenon-hero-small.webp">
+                <img src="images/parthenon-hero-small.webp" alt="parthenon" width="1450" height="965">
+            </picture>
+        </div>
+    </header>
+    <main>
+        <div id="data">
+            <h2>Data</h2>
+            <p>Area: 131, 940 sq km</p>
+            <p>Population: 10.73 million</p>
+            <p>Capital: Athens</p>
+            <p>Languages: Modern Greek, English</p>
+            <p>Currency: Euro</p>
+            <p>Time Zone: UTC +2</p>
+            <p>Calling Code: +30</p>
+            <p>Internet TLD: .gr</p>
+            
+        </div>
+
+        <div id="weather">
+            <h2>Weather</h2>
+            <img src="images/weather-icon-small.svg" alt="weather icon" width="125px" >
+            <p>Temperature: <span id="temp"></span></p>
+            <p>Conditions: Partly Sunny</p>
+            <p>Wind: <span id="windspeed"></span></p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+        </div>
+
+    </main>
+    <footer>
+        <p>©️ <span id="currentyear"></span> 🐾 Sophia Lapicola 🐾 Florida</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
