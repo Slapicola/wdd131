@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .hero img {
     width: 100%;
     height: auto;
 }
 
+:root {
+    background: white;
+    align-content: center;
+}
+
 header {
     background-color: #0A55A1;
     text-align: center;
-    font-family: Helvetica;
+    font-family: "Funnel Sans";
     font-size: 30px;
     color: #f8f8ff;
 }
@@ -19,6 +25,7 @@ header {
 
 #data h2 {
     padding-bottom: 5px;
+    font-family: "Funnel Sans";
 }
 
 #data p, #weather p {
@@ -28,6 +35,10 @@ header {
 #weather {
     text-align: center;
     font-family: Helvetica;
+}
+
+#weather h2 {
+    font-family: "Funnel Sans";
 }
 
 footer {
