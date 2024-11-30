@@ -1,0 +1,51 @@
+:root {
+    --back: #FFF176;
+    --back2: #FFF59D;
+    --databack: #FFF8E1;
+    --zebra: #FFF9C4;
+
+}
+
+body {
+    font-family: "Rockwell";
+}
+
+table {
+    margin: 0 auto;
+    border: thin solid lightgrey;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+.blank {
+    background-color: var(--back);
+    border: none;
+}
+
+thead{
+    background-color: var(--back);
+}
+
+thead tr:nth-last-child(1) {
+    background-color: var(--back2);
+}
+
+td {
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+    border: thin solid lightgray;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--databack);
+}

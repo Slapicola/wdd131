@@ -1,0 +1,22 @@
+* {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+@keyframes fadeFromBlack {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+img {
+    display: block;
+    background-color: black;
+    animation: fadeFromBlack 15s;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}

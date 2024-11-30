@@ -1,0 +1,40 @@
+@media screen and (min-width: 740px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+
+    }
+
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+    .active {
+        background-color: white;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 4fr));
+        grid-gap: 5px;
+        text-align: center;
+    }
+
+    /* section {
+        background-color: lightgray;
+        border: 2px, solid, black;
+    
+    } */
+    
+}
