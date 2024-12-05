@@ -24,10 +24,6 @@ span {
     font-style: italic;
 }
 
-div {
-    font-weight: bold;
-}
-
 select,
 input[type="date"],
 textarea,
