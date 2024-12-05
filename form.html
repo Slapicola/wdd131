@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="author" content="Sophia Lapicola"/>
+    <meta name="description" content="WDD 131, Sophia Lapicola, Practice making a product review form page"/>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review Form</h1>
+
+    </header>
+    <main>
+        <form method="get" action="review.html">
+        <fieldset>
+            <label><div>Product Name*</div>
+                <select name="productName" id="productName" required>
+                    <option value="">Select a Product...</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <div>Overall Rating*</div>
+            <label><input type="radio" id="onestar" name="rating" required>&star;</label>
+            <label><input type="radio" id="twostar" name="rating" required>&star; &star;</label>
+            <label><input type="radio" id="threestar" name="rating" required>&star; &star; &star;</label>
+            <label><input type="radio" id="fourstar" name="rating" required>&star; &star; &star; &star;</label>
+            <label><input type="radio" id="fivestar" name="rating" required>&star; &star; &star; &star; &star;</label>
+        </fieldset>
+
+        <fieldset>
+            <label><div>Date of Installation*</div><input type="date" id="date" name="installation" required></label>
+        </fieldset>
+
+        <fieldset>
+            <div>Which features did you find useful in the product?</div>
+            <span>(Check all the apply)</span>
+            <label><input type="checkbox" id="feature" name="durability" value="durability">Durability</label>
+            <label><input type="checkbox" id="feature" name="easeOfUse" value="easeOfUse">Ease of Use</label>
+            <label><input type="checkbox" id="feature" name="performance" value="performance">Performance</label>
+            <label><input type="checkbox" id="feature" name="design" value="design">Design</label>
+        </fieldset>
+
+        <fieldset>
+            <label><div>Written Review</div> <span>(Optional)</span><textarea id="review" name="review"></textarea></label>
+        </fieldset>
+
+        <fieldset>
+            <label><div>Your Name</div> <span>(Optional)</span><input type="text" id="name" name="userName"></label>
+        </fieldset>
+
+        <input type="submit" value="Post Review">
+    
+        </form>
+
+
+    </main>
+    <footer>
+        <p>©️ <span id="currentyear"></span> 🐾 Sophia Lapicola 🐾 Florida</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
