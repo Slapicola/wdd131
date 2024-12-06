@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Jaro:opsz@6..72&family=Manrope:wght@200..800&family=Oswald:wght@200..700&display=swap');
+body {
+    background-color: #FCDFA6;
+    font-family: "Manrope", sans-serif;
+}
+
+header {
+    background-color: #F4B886;
+}
+
+h1, h2, h3{
+    font-family: "Oswald", sans-serif;
+}
+
+nav {
+    background-color: #CBE896;
+    font-family: "Jaro";
+    padding: 25px;
+    max-width: 550px;
+}
+
+nav a{
+    color: black;
+    padding: 2rem;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+a:hover {
+    background-color: #e9ffc1;
+    font-size: 25px;
+}
+
+p {
+    color: #55423A;
+}
