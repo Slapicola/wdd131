@@ -1,0 +1,37 @@
+@media screen and (max-width: 740px) {
+    header {
+        display: block;
+    }
+    h1 {
+        text-align: center;
+    }
+    main {
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: auto;
+        border: none;
+    }
+    #creature-facts section, #plant-facts section{
+        display: block;
+    }
+    #imagePlaceholder img {
+        max-width: 400px;
+        max-height: 600px;
+    }
+    img {
+        grid-row: 2/3;
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    #periods a{
+        display: block;
+        padding: 1rem;
+        padding-top: 0%;
+        font-size: 25px;
+    }
+
+    #periods a:hover {
+        font-size: 25px;
+    }
+}
